@@ -1,0 +1,17 @@
+#content{}
+#content .content_area{}
+#content .content_area .bg{width: 1200px;height: 300px;background: url(../images/sub5_3_v.jpg) center no-repeat;position: relative; left: 0 ;top: -100px}
+
+#content #ppp{}
+#content .content_area{width: 1200px;margin: 0 auto}
+#content .content_area .tabs{width: 1200px;position: relative;margin: 0 auto}
+#content .content_area .tabs ul{width: 1100px;height: 100px;overflow: hidden; margin-left: 100px}
+#content .content_area .tabs ul li{}
+#content .content_area .tabs ul li .tab{display: block; font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; font-weight: 500; color:#1c5a37; width:300px; height: 30px; border: 1px solid #1c5a37; border-radius: 15px; float: left; text-align: center; line-height: 2em; margin-right: 20px}
+#content .content_area .tabs ul li .tab:hover{font-weight: 700;color: #fff;background:#1c5a37 }
+
+#content .content_area .tabs ul li .tab.on{font-weight: 700;color: #fff;background:#1c5a37}
+#content .content_area .tabs .contlist{margin-bottom: 100px; width: 1000px; position: relative; overflow: hidden; margin: 0 100px 100px}
+#content .content_area .tabs .contlist dl{}
+#content .content_area .tabs .contlist dl dt{font-family: 'Nanum Gothic',sans-serif; font-size: 1.5em; font-weight: 700; line-height: 4em; color:#1c5a37 }
+#content .content_area .tabs .contlist dl dd{font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; font-weight: 300;line-height: 2em; margin-bottom: 50px}

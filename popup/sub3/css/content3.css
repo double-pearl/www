@@ -1,0 +1,18 @@
+#content{margin: 0 auto; padding: 0}
+#content .content_area{width: 1200px;margin: 0 0 150px 0; padding: 0}
+#content .content_area .bg{width: 1000px; height: 780px; margin: 0 auto;}
+#content .content_area .bg .commercial{margin: 0 auto}
+#content .content_area .bg .commercial ul{width: 1200px; overflow: hidden}
+#content .content_area .bg .commercial ul li{width: 200px;height: 300px; float: left; margin-right: 10px}
+#content .content_area .bg .commercial ul li:nth-child(1){background: url(../images/sub3_cm01.jpg) left top no-repeat}
+#content .content_area .bg .commercial ul li:nth-child(2){background: url(../images/sub3_cm02.jpg) left top no-repeat}
+#content .content_area .bg .commercial ul li:nth-child(3){background: url(../images/sub3_cm03.jpg) left top no-repeat}
+#content .content_area .bg .commercial ul li:nth-child(4){background: url(../images/sub3_cm04.jpg) left top no-repeat}
+#content .content_area .bg .commercial ul li:nth-child(5){background: url(../images/sub3_cm05.jpg) left top no-repeat}
+#content .content_area .commercial2{}
+#content .content_area .commercial2 ul{width:1100px; overflow: hidden; margin: 150px 0 150px 0}
+#content .content_area .commercial2 ul li{width: 260px; height: 170px;float: left}
+#content .content_area .commercial2 ul li:nth-child(1){background: url(../images/sub3_cm06.jpg) left top no-repeat}
+#content .content_area .commercial2 ul li:nth-child(2){background: url(../images/sub3_cm07.jpg) left top no-repeat}
+#content .content_area .commercial2 ul li:nth-child(3){background: url(../images/sub3_cm08.jpg) left top no-repeat}
+#content .content_area .commercial2 ul li:nth-child(4){background: url(../images/sub3_cm09.jpg) left top no-repeat}

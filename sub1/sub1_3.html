@@ -1,0 +1,105 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼육식품-삼육의 철학</title>
+    
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+      <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+      <script src="../common/js/prefixfree.min.js"></script>
+    
+    
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+     <? include "../common/sub_head.html" ?>
+     <? $_GET['num']=3;
+      include "common/sub1_nav.html"; 
+?>
+    <!-- 본문 콘텐츠영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>기업정보</span>&gt;<strong>삼육의 철학</strong>
+                
+            </div>
+            <h2>삼육의 철학</h2>
+            <p>온누리에 건강을 추구하는 삼육의 이념과 설립목적</p>
+        </div>
+        <div class="content_area">
+         
+        <div class="goal">
+       <dl>
+           <dt>경영원칙</dt>
+           <dd>인간을 사랑하고 존중하는 기업
+자연식품의 가치를 추구하는 기업
+교육사업 재투자로 미래의 인재를 양성하는 기업</dd>
+       </dl>
+       <dl>
+           <dt>비전</dt>
+           <dd>1982년 두유사업 진출이후 두유업계 대표브랜드로 성장한 삼육식품은 
+전문 두유 브랜드를 기초로 온 인류의 건강과 행복에 도움을 주는 
+세계적인 "종합식품회사"로 성장해 나아가고자 합니다.</dd>
+       </dl>
+
+    <dl>
+        <dt>핵심가치</dt>
+        <dd>핵심가치는 삼육인의 사고와 행동에 건강한 삶을 통한 인간사랑
+정신을 부여하는것입니다.
+핵심가치를 바탕으로 인류 건강의 향상을 위한
+정직한 제품생산이 삼육식품 성공의 요소입니다.</dd>
+    </dl></div>
+ <strong>' 정직한 사람들이, 정직한 원료를 사용하여, 정직한 맛으로 고객을 만족'</strong>
+
+ <span>삼육이란 1.덕이 충만한 품성 2. 지식 3. 건강한 체력 3가지를 고루 갖춘
+인재를 양성하여 가정과 인류사회에 봉사하는 것을 의미합니다.
+삼육식품은 덕,지,체를 고루 갖춘 인재로 하여금 최고품질의 식품을 제조/판매함
+으로써 창출되는 이윤을 인재 양성에 재투자하는 올바른 정신을 추구합니다.</span>
+       
+        <p>삼육식품의 사훈</p>
+       <div class="motto">
+         
+           <div><dl>
+               <dt>인간존중</dt>
+               <dd>사람에게 유익한 최고의 품질관리<br>식품안전방침 준수</dd>
+           </dl>
+ </div>
+           <div><dl>
+               <dt>미래창조</dt>
+               <dd>최고의 건강종합식품 회사를 <br>위한 변화선도 인재양성</dd>
+           </dl></div>
+           <div><dl>
+               <dt>성실봉사</dt>
+               <dd>고객 감동 경영 사업이윤 교육사업<br>투자사회공헌</dd>
+           </dl>
+           </div>
+       </div>
+       
+    
+      
+     </div>
+     
+    </article>
+ 
+ <!-- 푸터 공통영역 -->
+ 
+      <? include "../common/sub_foot.html" ?>
+ 
+ 
+
+</body>
+</html>

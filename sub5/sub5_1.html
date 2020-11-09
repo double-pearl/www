@@ -1,0 +1,101 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>식품건강-푸드이야기</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+ <? include "../common/sub_head.html" ?>
+
+ <? $_GET['num']=1;
+      include "common/sub5_nav.html"; 
+?>
+<!-- 본문 콘텐츠영역 -->
+
+
+ 
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>식품건강</span>&gt;<strong>푸드이야기</strong>
+                
+            </div>
+            <h2>푸드이야기</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+        <div class="illu"></div>
+        <div class="text"><dl>
+            <dt>컬러푸드로 
+즐겨요</dt>
+            <dd> 미국에서 하루에 5가지 컬러의 과일과 채소를 꾸준히 섭취하는 “Five A Day" 캠페인을 실시, 성인병과 암 발병률을 80%까지 낮추는 결과를 얻었다. 과일과 채소가 지닌 다양한 천연 색소는 ”파이토케미칼“이란 성분에 의해 결정된다. 이 물질은 식품이 가뭄∙자외선∙해충 등으로부터 자신을 보호하기 위해 만들어낸 방어 물질로 파이토케미칼 성분 자체에 이미 세포 노화를 방지하는 항산화제가 함유되어 있는 등 항암∙해독 효과가 뛰어난 것으로 알려져 있다. 과일 및 채소의 색상이 화려하고 짙을수록 파이토케미칼의 함유량이 높다고 볼 수 있다.
+  고생한 가족들을 위해 보약을 지으려는 주부들이 많아진다. 일교차가 높아 건강을 해치기 쉬운 요즘 비싼 보약도 좋겠지만 오장육부를 튼튼하게 만들어 주는 여러 가지 색깔음식에 관심을 가져보면 어떨까? 이왕이면 보기에 좋고, 건강에도 좋은 컬러 푸드로 건강밥상을 차려보자.</dd>
+        </dl></div>
+        
+            <div class="eventSlideMenu">
+           <ul>
+             <li class="img01 eventMenu">
+                <a href="#"><img src="images/sub5_1.jpg" alt="컬러푸드-그린푸드" /></a>
+                <span class="buttonMenu01"></span></li>
+             <li class="img02 eventMenu">
+                <a href="#"><img src="images/sub5_2.jpg" alt="컬러푸드-퍼플푸드" /></a>
+                <span class="buttonMenu02"></span></li>
+             <li class="img03 eventMenu">
+                <a href="#"><img src="images/sub5_3.jpg" alt="컬러푸드-레드푸드" /></a>
+                <span class="buttonMenu03"></span></li>
+             
+          </ul>
+        </div>
+         
+       
+          <div class="eventSlideMenu02">
+           <ul>
+             <li class="img01 eventMenu">
+                <a href="#"><img src="images/sub5_4.jpg" alt="컬러푸드-옐로푸드" /></a>
+                <span class="buttonMenu01"></span></li>
+             <li class="img02 eventMenu">
+                <a href="#"><img src="images/sub5_5.jpg" alt="컬러푸드-화이트푸드" /></a>
+                <span class="buttonMenu02"></span></li>
+             <li class="img03 eventMenu">
+                <a href="#"><img src="images/sub5_6.jpg" alt="컬러푸드-블랙푸드" /></a>
+                <span class="buttonMenu03"></span></li>
+             
+          </ul>
+        </div>
+          
+   
+           <div class="color">
+      
+            
+            
+        </div>
+        
+        
+        
+        
+       </div>
+        
+    </article>
+ <? include "../common/sub_foot.html" ?>
+ <script src="../common/js/jquery.easing.1.3.js"></script>
+ <script src="js/sub5.js"></script>
+</body>
+</html>

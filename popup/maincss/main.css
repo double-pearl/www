@@ -1,0 +1,109 @@
+
+.main{position: relative; width: 2000px; height: 1000px; overflow: hidden}
+.main .visual{position: relative; width: 2000px; left: 50%; margin-left: -1000px ;z-index: 1}
+.main .visual p{position: absolute; left:20%; top: 200px;
+   font-family: 'Nanum Myeongjo', serif; font-size: 45px;
+   line-height: 2em; font-weight: 600}
+.main .visual ul li{float: left}
+.gallery .link1,.gallery .link2,.gallery .link3,.gallery .link4,.gallery .link5{display:none}
+
+.main .dock{width:330px; position:absolute; left:900px; top:900px;z-index: 10}
+.dock span.mbutton{margin-right:20px; cursor:pointer; 
+    display:block; float:left; width:16px; height:16px;
+   background: #fff; border-radius:8px;
+  transition: all .5s}
+
+.dock .ps{ margin-right:20px; margin-top: -5px; cursor:pointer; 
+    display:block; float:left; width:25px; height:25px;
+    background:url(../images/pause.png)}
+
+
+
+#content{ width:1200px;margin: 0 auto}
+#content .introduce{position: relative}
+#content .introduce .intro{font-weight: bold; font-size: 40px; text-align: center;
+   margin: 180px 100px 100px 100px}
+#content .introduce .product{font-family: 'Nanum Gothic', sans-serif; font-size: 18px;}
+#content .introduce .product ul{width: 900px; margin: 0 auto 110px;overflow: hidden}
+#content .introduce .product ul li{width: 100px; float: left; margin-right: 100px; text-align: center}
+#content .introduce .product ul li:last-child{margin-right: 0}
+#content .introduce .product a{ color: #1c5a37}
+#content .introduce .product span{display: block;margin-bottom: 15px}
+#content .introduce>a{font-size: 40px; color: #999; position: absolute; bottom: 100px}
+
+#content .introduce .product2 {position: relative;}
+#content .introduce .product2 ul{ width: 1000px; margin: 0 auto; overflow: hidden; }
+#content .introduce .product2 ul li{width: 108px; float:left; margin-right: 60px; text-align: center}
+#content .introduce .product2 ul li:last-child{margin-right: 0}
+#content .introduce .pre{position: absolute; left:10px; bottom: 100px}
+#content .introduce .pre i{font-size: 40px}
+#content .introduce .next{position: absolute; right:10px; bottom:100px}
+#content .introduce .next i{font-size: 40px}
+
+#content .shop{width: 2000px;height: 381px;margin-left: -400px; background: url(../images/woodbg.jpg) center no-repeat; background-attachment: fixed; overflow: hidden; margin-top: 120px}
+#content .shop p{display: block;font-family: 'Nanum Myeongjo',serif; font-weight: 600; font-size: 32px; color: #ffffff;margin-top: 120px; text-align: center;}
+#content .shop .more{display: block; padding:20px 65px;
+  border: 1px solid #ffffff; width: 210px;font-family: 'Nanum Gothic', sans-serif; font-size: 24px; color: #ffffff;  margin-top: 25px;
+  margin:35px auto 0; transition: all .5s}
+#content .shop .more:hover{background:#1c5a37; }
+
+
+#content .information{overflow: hidden}
+#content .information .info{font-weight: bold; font-size: 40px; text-align: center;
+   margin: 180px 100px 100px 100px}
+#content .information .company{overflow: hidden; margin: 0 30px 0 auto} 
+#content .information .company .business{margin-left: 100px; float: left;width: 320px;height: 420px; border: 1px solid #ccc; border-radius: 20px;background: url(../images/resarch00.jpg) no-repeat}
+
+#content .information .company .business dl{margin: 260px 30px 50px 20px; line-height: 2em}
+#content .information .company .business dl:hover{color:#1c5a37;}
+
+#content .information .company .business dl dt{font-family: 'Nanum Gothic','sans-serif'; font-size: 24px; font-weight: bold;line-height: 2em }
+#content .information .company .business dl dd{}
+
+#content .information .company .research{margin: 0 15px; float: left; width: 320px;height: 420px; border: 1px solid #ccc;border-radius: 20px;background: url(../images/research01.jpg) no-repeat}
+#content .information .company .research dl{margin: 260px 30px 50px 20px; line-height: 2em}
+#content .information .company .research dl:hover{color:#1c5a37;}
+#content .information .company .research dl dt{font-family: 'Nanum Gothic', 'sans-serif'; font-size: 24px; font-weight: bold; line-height: 2em}
+#content .information .company .research dl dd{}
+
+#content .information .company .global{float: left;width: 320px;height: 420px; border: 1px solid #ccc;border-radius: 20px;background: url(../images/research02.jpg) no-repeat}
+#content .information .company .global dl:hover{color: #1c5a37}
+#content .information .company .global dl dt{font-family: 'Nanum Gothic' ,'sans-serif'; font-size: 24px; font-weight: bold; line-height: 2em}
+#content .information .company .global dl dd{}
+
+
+#content .information .company .research dl{margin: 260px 30px 50px 20px; line-height: 2em}
+#content .information .company .global dl{margin: 260px 30px 50px 20px; line-height: 2em}
+
+#content .service{overflow: hidden; margin-bottom: 70px}
+#content .service .customer{font-weight: bold; font-size: 40px; text-align: center;
+   margin: 180px 100px 100px 100px}
+#content .service .question{float: left; width: 550px; height: 342px;
+border:1px solid #ccc; position: relative; padding: 50px 10px 30px 30px}
+#content .service .question .more{position: absolute; right: 50px; top:52px}
+#content .service .question h4{font-weight: bold; font-size: 24px; margin-bottom: 40px;}
+#content .service .question ul{}
+#content .service .question ul li a{font-family: 'Nanum Gothic','sans-serif';font-weight: 200; font-size: 18px; line-height: 38px;transition: all .3s}
+#content .service .question ul li a:hover{font-weight: bold; color: #1c5a37}
+
+#content .service .news{float: right; width: 490px; height: 342px;border: 1px solid #ccc; padding: 50px 50px 30px 30px; position: relative}
+#content .service .news h4{font-weight: bold; font-size: 24px; margin-bottom: 40px;}
+#content .service .news .more{position: absolute; right: 50px ;top: 52px}
+#content .service .news ul {font-weight: bold; font-size: 24px; margin-bottom: 70px}
+#content .service .news ul li a{font-family: 'Nanum Gothic','sans-serif';font-weight: 200; font-size: 18px; line-height: 2em;}
+#content .service .news ul li a:hover{font-weight: bold; color: #1c5a37}
+#content .service .news ul li span{float:right}
+
+#content .select{width: 1200px; height: 300px;
+    overflow: hidden; margin-top: 100px; position: relative;}
+#content .select img{width: 1200px; height: 300px; opacity: .5; transition: all .5s}
+#content .select img:hover{transform:scale(1.2); opacity:1}
+#content .select p{display: block;position: absolute; left: 230px; top: 0px;  font-family: 'Nanum Gothic', sans-serif; font-size: 40px; color: #666; font-weight: 600;text-align: center; margin-top: 100px}
+
+
+#content .select .pick{position: absolute;left: 420px;top:170px; display: block; background: #ffffff; opacity: .5; text-align: center; padding:20px 0;
+  border: 1px solid #ccc; width: 300px;font-family: 'Nanum Gothic', sans-serif; font-size: 24px; color: #666;  margin-top: 25px;
+  margin:25px auto 0; transition: all .5s}
+
+#content .select .pick:hover{background:#1c5a37; opacity: 1; font-weight: bold; color:#ffffff}
+

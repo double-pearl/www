@@ -1,0 +1,30 @@
+
+
+#content .content_area{width: 1200px;}
+#content .content_area .illu{width: 1000px;height: 100px;background: url(../images/sub5_1.jpg) center no-repeat; position: relative; left: 100px; top: -100px}
+#content .content_area .text{width: 1200px;margin: 0 auto}
+#content .content_area .text dl{width: 1000px; height: 300px;margin: 0 auto; text-align: justify}
+#content .content_area .text dl dt{width: 250px; text-align: center; display: block; font-family: 'Nanum Gothic',sans-serif; font-size: 2em; color: #0e9711; line-height: 1.8em;font-weight: 700; position: absolute}
+#content .content_area .text dl dd{width: 750px;float: left; margin-left: 300px;font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; color: #333;line-height: 1.8em;font-weight: 500}
+
+#content .content_area .color{width: 1000px;margin: 0 auto;}
+#content .content_area .color .box1{width: 1000px; height: 320px; float: left; position: relative; overflow: hidden;}
+#content .content_area .color .box1 ul li{display: block; width: 333px; height: 320px;float: left; position: relative;}
+#content .content_area .color .box1 ul li:nth-child(1){background: #1e9501}
+#content .content_area .color .box1 ul li:nth-child(2){background: #1e9501}
+#content .content_area .color .box1 ul li:nth-child(3){background: #1e9501}
+#content .content_area .color .box1 ul li dl{width: 330px; height: 320px; border-left: 1px solid #ccc; float: left; position: relative; overflow: hidden; text-align: center}
+#content .content_area .color .box1 ul li dl dt{font-family: 'Nanum Myeongjo',serif; font-weight: 500; color: #fff; font-size: 1.8em; line-height: 3em }
+#content .content_area .color .box1 ul li dl dd{font-family: 'Nanum Gothic',sans-serif; font-weight: 500; color: #fff; font-size: 1.1em; line-height: 1.5em}
+
+
+#content .content_area .color .box2{width: 1000px; height: 320px; margin: 0 10px 20px 0; float: left; position: relative; }
+#content .content_area .color .box2 ul li{display: block; width: 330px;height: 320px;}
+
+#content .content_area .color .box2 ul li dl{width: 330px; height: 320px; border-left: 1px solid #ccc; float: left; position: relative; overflow: hidden; text-align: center}
+#content .content_area .color .box2 ul li dl dt{font-family: 'Nanum Myeongjo',serif; font-weight: 500; color: #fff; font-size: 1.8em; line-height: 3em }
+#content .content_area .color .box2 ul li dl dd{font-family: 'Nanum Gothic',sans-serif; font-weight: 500; color: #50a83b}; font-size: 1.1em; line-height: 1.5em}
+
+
+
+

@@ -1,0 +1,61 @@
+
+#content .content_area .history_list{ overflow: hidden; border-top: 1px solid green; border-bottom: 1px solid green; width: 600px;height: 30px; margin: 0 auto; text-align: center; font-family:'Roboto', sans-serif; font-size: 18px; font-weight: 300; color: #999}
+#content .content_area .history_list ul{text-align: center; margin: 0 auto}
+#content .content_area .history_list li{font-family:'Roboto', sans-serif; font-size: 18px; font-weight: 300; color: #999}
+#content .content_area .history_list li a{display: block; width: 33.3%; float: left; padding: 5px 0 10px}
+#content .content_area .history_list li a:hover{font-family:'Roboto', sans-serif; font-size: 18px; font-weight: 500; color: #ffffff; background: #1c5a37}
+
+#content .content_area{margin-top: -50px; }
+#content .content_area div{background: url(../images/content2/bullet_03.jpg) center top no-repeat}
+#content .content_area div>.bullet{width:100px;border: 1px solid green; float: left;}
+#content .content_area div>.bullet:before{ content: ""; position: absolute; left: 100px; top:0; width: 3px;
+    height: 100%; background: #ddd;}
+
+
+#content .content_area div>.history_dl{position: relative; width: 1200px; margin: 0 auto;}
+#content .content_area div>.history_dl dl{margin: 0 auto; line-height: 2em}
+
+#content .content_area div>.history_dl dl:nth-child(1){margin-left: 650px; margin-top: 50px}
+#content .content_area div>.history_dl dl:nth-child(2){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(3){margin-left:650px}
+#content .content_area div>.history_dl dl:nth-child(4){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(5){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(6){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(7){margin-left:650px}
+#content .content_area div>.history_dl dl:nth-child(8){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(9){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(10){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(11){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(12){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(13){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(14){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(15){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(16){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(17){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(18){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(19){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(20){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(21){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(22){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(23){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(24){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(25){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(26){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(27){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(28){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(29){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(30){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(31){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(32){margin-right: 650px; text-align: right}
+#content .content_area div>.history_dl dl:nth-child(33){margin-left: 650px}
+#content .content_area div>.history_dl dl:nth-child(34){margin-right: 650px; text-align: right}
+
+#content .content_area div dl dt{font-family:'Roboto', sans-serif; font-size: 24px; font-weight: 700; color: #1c5a37; margin-top: 20px;margin-bottom: 24px}
+#content .content_area div dl .right{}
+#content .content_area div dl>dd{}
+#content .content_area div dl .left{}
+
+
+
+
+

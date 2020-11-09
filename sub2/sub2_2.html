@@ -1,0 +1,80 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>제품소개-신제품</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub2common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<? include "../common/sub_head.html" ?>
+ <? $_GET['num']=2;
+      include "common/sub2_nav.html"; 
+?>
+<!-- 본문 콘텐츠영역 -->
+
+
+   
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>제품소개</span>&gt;<strong>아몬드두유</strong>
+                
+            </div>
+            <h2>아몬드두유</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+           
+        <div>
+            <ul>
+                <li><img src="images/sub2_2_product01.jpg" alt=""><span>아라몬드</span><p>190ml</p>
+                    <a href="#"><dl>
+                    <dt>아라몬드</dt>
+                    <dd>품질좋은 캘리포니아산 아몬드로 갈아 만든 고소하고 부드러운 맛</dd>
+                    </dl></a></li>
+                <li><img src="images/sub2_2_product02.jpg" alt=""><span>마시는 아몬드</span><p>950ml</p>
+                <a href="#"><dl>
+                    <dt>마시는 아몬드</dt>
+                    <dd>똑똑한 내몸이 찾는 하루 한줌! 내몸을 위한 선택 마시는 아몬드</dd>
+                    </dl></a></li>
+                <li><img src="images/sub2_2_product03.jpg" alt=""><span>고소한 아몬드</span><p>950ml</p>
+                <a href="#"><dl>
+                    <dt>고소한 아몬드</dt>
+                    <dd>캘리포니아산 아몬드의 고소한맛을 한팩에 그대로 담았습니다!</dd>
+                    </dl></a></li>
+                <li><img src="images/sub2_2_product04.jpg" alt=""><span>달콤한 아몬드</span><p>950ml</p>
+                <a href="#"><dl>
+                    <dt>달콤한 아몬드</dt>
+                    <dd>아몬드의 고소한 맛에 벌꿀의 달콤함 까지!</dd>
+                    </dl></a></li>
+                <li><img src="images/sub2_2_product05.jpg" alt=""><span>부드러운 헤이즐넛</span><p>950ml</p>
+                <a href="#"><dl>
+                    <dt>부드러운 헤이즐넛</dt>
+                    <dd>헤이즐넛의 풍부한 맛을 그대로 담아낸 맛있는 견과음료</dd>
+                    </dl></a></li>
+                
+            </ul>
+        </div>
+            
+        </div>
+        
+    </article>
+  <? include "../common/sub_foot.html" ?>
+</body>
+</html>

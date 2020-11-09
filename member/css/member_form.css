@@ -1,0 +1,84 @@
+#content  {
+    width:500px; margin:260px auto 100px;  font-family: 'Nanum Gothic',sans-serif; font-weight: 500
+}
+#content input{border-radius: 5px}
+
+#content h2 {
+    font-size:34px; font-weight: 700; text-align: center; margin-bottom:40px;margin-top: 50px
+}
+
+#content p {
+    margin-bottom:20px; font-size:16px; color:#999
+}
+
+#content ul li {
+    position: relative; box-sizing: border-box; margin-bottom:18px
+}
+
+#content ul li input, #content ul li select  {
+  width:500px; height:50px; padding:10px; box-sizing: border-box; font-size:16px; border:1px solid #ddd; 
+}
+
+#content ul li:nth-of-type(2) {
+    width:500px; float:left; 
+}
+
+#content ul li:nth-of-type(3) {
+    width:500px; float:left
+}
+
+#content ul li #pass, 
+#content ul li #pass_confirm {
+    width:375px; 
+}
+
+#content ul li #passtext {
+    display: block;  position: absolute; right:10px ;top:10px; 
+}
+
+#content ul li #eye {
+    display: block; position: absolute; right:-40px; top:20px; text-align: center;
+}
+
+#content ul li #eye i{
+    font-size:25px; color: #666
+}
+
+#content ul li #hp1, #content ul li #hp2, #content ul li #hp3 {
+    width:130px
+}
+
+#content ul li #email1, #content ul li #email2 {
+    width:200px
+}
+
+#content ul li:nth-of-type(4) {
+    clear: both
+}
+
+
+#content ul li #loadtext {
+    position: absolute; top:10px; right:10px
+}
+
+#content ul li #loadtext2 {
+    position: absolute; top:10px; right:10px
+}
+
+#content .button {
+    overflow: hidden; width:370px; margin: 40px auto 0; display: flex; justify-content: space-between
+}
+
+#content .join_btn, #content .reset_btn {
+    display: block; width:180px; padding:16px 0; background:#ddd; text-align: center; font-size:16px
+}
+
+#content .join_btn {
+    background: green; color: #fff
+}
+
+
+
+
+
+

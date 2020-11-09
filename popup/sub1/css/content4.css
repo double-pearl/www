@@ -1,0 +1,22 @@
+#content{margin: 0 auto; padding: 0}
+
+#content .content_area{overflow: hidden; width: 1200px; margin: 0 auto; padding: 0; position: relative;}
+#content .content_area .edu::before {content: '';display: block; width: 50px; height: 1px;color: #ccc; position: absolute; top;-50px left:0}
+#content .content_area .edu{width: 1000px;height: 282px;margin: 0 auto;padding: 20px 0 0 100px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc}
+#content .content_area .edu p{display: block; width: 550px; margin-top: 10px; font-family:'Nanum Gothic', sans-serif; font-size: 1.2em; font-weight: 400; color: #333; line-height: 2em;float: left}
+#content .content_area .edu img{padding: 20px 0 0 70px; position: relative}
+
+#content .content_area .silver{text-align: center; margin: 100px 0 70px 0}
+#content .content_area .silver p{font-family: 'Nanum Gothic',sans-serif; font-size: 2.1em; font-weight: 500; color: #333}
+
+#content .content_area .volunteer{width: 1200px; 290px; margin: 0 0 100px 0; padding:10px 50px 10px 50px;overflow: hidden; text-align: center}
+#content .content_area .volunteer .box {width: 200px; height: 290px; border: 1px solid #ccc;border-radius: 5%; float: left; margin: 0 10px 0 20px}
+#content .content_area .volunteer .box dl{display: block; margin-top: 150px; }
+#content .content_area .volunteer .box dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 1.3em; font-weight: 700; line-height: 3.5em}
+#content .content_area .volunteer .box dl dd{font-family: 'Nanum Gothic', sans-serif; font-size: 1em; font-weight: 100; line-height: 1.5em; text-align: justify; padding: 0 10px 0 10px}
+#content .content_area .volunteer .box:nth-child(1){background: url(../images/content4/earth.png) center 20px no-repeat;margin-left: 100px}
+#content .content_area .volunteer .box:nth-child(2){background: url(../images/content4/vest.png) center 10px no-repeat; }
+#content .content_area .volunteer .box:nth-child(3){background: url(../images/content4/health.png) center 10px no-repeat}
+#content .content_area .volunteer .box:nth-child(4){background: url(../images/content4/help.png) center 10px no-repeat; }
+
+

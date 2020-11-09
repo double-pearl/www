@@ -1,0 +1,78 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기업광고-지면광고</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+ 
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+ <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=3;
+      include "common/sub3_nav.html"; 
+?>
+<!-- 본문 콘텐츠영역 -->
+
+
+ 
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>기업광고</span>&gt;<strong>지면광고</strong>
+                
+            </div>
+            <h2>지면광고</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+           
+        <div class="bg">
+          <div class="commercial"><ul>
+              <li><a href="images/fancy01.jpg" rel="fancybox"><img src="images/sub3_cm01.jpg" alt=""><p>메가마트 이미지월</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/fancy02.jpg" rel="fancybox"><img src="images/sub3_cm02.jpg" alt=""><p>2017 브랜드대상</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/fancy03.jpg" rel="fancybox"><img src="images/sub3_cm03.jpg" alt=""><p>2017 브랜드대상</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/fancy04.jpg" rel="fancybox"><img src="images/sub3_cm04.jpg" alt=""><p>재림신문 전면광고</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/fancy05.jpg" rel="fancybox"><img src="images/sub3_cm05.jpg" alt=""><p>2018 브랜드대상</p><span>큰이미지 보기</span></a></li>
+          </ul></div>
+          <div class="commercial2">
+          <ul>
+              <li><a href="images/cummercial01.jpg" rel="fancybox"><img src="images/sub3_3cc01.jpg" alt=""><p>2018 브랜드대상</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/cummercial02.jpg" rel="fancybox"><img src="images/sub3_3cc02.jpg" alt=""><p>삼육대학교 동문회보</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/cummercial03.jpg" rel="fancybox"><img src="images/sub3_3cc03.jpg" alt=""><p>브랜드대상 수상광고</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/cummercial04.jpg" rel="fancybox"><img src="images/sub3_3cc04.jpg" alt=""><p>삼육대학교 동문회보</p><span>큰이미지 보기</span></a></li>
+              <li><a href="images/cummercial05.jpg" rel="fancybox"><img src="images/sub3_3cc05.jpg" alt=""><p>지면광고 자연을담아</p><span>큰이미지 보기</span></a></li>
+          </ul>
+          <div><a href="#"></a></div>
+          <div><a href="#"></a></div>
+          <div class="box1"></div><div class="box2"></div></div>
+           
+        </div>
+          
+        </div>
+        
+    </article>
+ <? include "../common/sub_foot.html" ?>
+    <script src="http://code.jquery.com/jquery-1.7.js"></script>
+    <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script src="fancybox/jquery.easing-1.3.pack.js"></script>
+    <script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script src="js/fancy.js"></script>
+    
+</body>
+</html>

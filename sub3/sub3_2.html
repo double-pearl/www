@@ -1,0 +1,90 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기업광고-TV광고</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+  
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+ <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=2;
+      include "common/sub3_nav.html"; 
+?>
+<!-- 본문 콘텐츠영역 -->
+
+
+ 
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>기업광고</span>&gt;<strong>TV광고</strong>
+                
+            </div>
+            <h2>TV광고</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+           
+        <div class="fancybox">
+           <ul>
+               <li><a rel="fancybox" href="#dialog1"><img src="images/sub3_c01.jpg" alt=""><div><p>날씬한 애들은 알아! 아라!</p><span>마시는 아몬드
+아라몬드</span></div></a></li>
+               <li><a rel="fancybox" href="#dialog2"><img src="images/sub3_c02.jpg" alt=""><div><p>검은콩 영양에 칼슘까지 플러스</p><span>삼육두유 
+검은콩 &amp;칼슘</span></div></a></li>
+               <li><a rel="fancybox" href="#dialog3"><img src="images/sub3_c03.jpg" alt=""><div><p>건강한 웰빙음료로 건강까지 잡는</p><span>발아현미
+19곡</span></div></a></li>
+               <li><a rel="fancybox" href="#dialog4"><img src="images/sub3_c04.jpg" alt=""><div><p>요즘엔 흑당음료가 대세! </p><span>흑당두유</span></div></a></li>
+           </ul>
+          <div id="dialogs" style="display: none">
+            <div id="dialog1">
+              <h1>마시는 아몬드 아라몬드</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0_t7Lg-hW1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+             <div id="dialog2">
+              <h1>삼육두유 검은콩 영양에 칼슘까지 플러스</h1>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ITVACT6DSPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div id="dialog3">
+              <h1> 삼육두유 발아현미</h1>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/udMDEhYc6UM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="dialog4">
+                <h1> 삼육두유 흑당두유</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ln2ywbNEVHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          
+        </div>
+            
+        </div>
+        
+    </article>
+ <? include "../common/sub_foot.html" ?>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script src="fancybox/jquery.easing-1.3.pack.js"></script>
+    <script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+ <script src="js/fancy1.js"></script>
+    
+</body>
+</html>

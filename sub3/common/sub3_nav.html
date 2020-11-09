@@ -1,0 +1,51 @@
+
+     <script>
+       window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+        var nav3= document.getElementById('nav3');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+          }
+
+}   
+         
+         
+</script>
+
+   <!-- 메인 비주얼영역 -->
+    <div class="visual">
+
+    </div>
+<!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>기업광고</h3>
+        <p>건강한 제품, 건강한 환경, 건강한 기업문화, 건강한 나눔을 홍보합니다</p>
+        
+        <div class="subNav">
+            <ul>
+                <li><a id="nav1" href="sub3_1.html">홍보영상</a></li>
+                <li><a id="nav2" href="sub3_2.html">TV광고</a></li>
+                <li><a id="nav3" href="sub3_3.html">지면광고</a></li>
+                
+            </ul>
+            
+        </div>
+    </div>

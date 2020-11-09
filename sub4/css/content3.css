@@ -1,0 +1,34 @@
+#content{margin: 0 auto}
+#content .content_area{width: 1000px; height: 2700px; margin: 0 auto; position: relative;}
+#content .content_area .bg{width: 1000px; height: 500px; position: absolute; left: 0 ;top: -100px ;z-index: -1}
+#content .content_area .quality{width: 1000px; height: 1000px; position: absolute; left: 0; top: 350px; overflow: hidden;margin: 0 auto}-30px; top: 12;}
+#content .content_area .quality .right{width: 400px;position: relative;float: right;}
+#content .content_area .quality .right dl:before{content: '';width: 5px;height: 130px; background: #0e9711; position: absolute; left: -30px; top: 12;}
+#content .content_area .quality>div dl dt{font-family: 'Nanum Gothic',sans-serif;font-size: 2em;color: #666; line-height: 1.5em; font-weight: 700;}
+#content .content_area .quality>div dl span{color: #056207; display: block;font-family: 'Nanum Gothic',sans-serif;font-size: 2em;color: #056207;line-height: 2em;font-weight: 700}
+#content .content_area .quality>div dl dd{font-family: 'Nanum Gothic',sans-serif;font-size: 1.1em;color: #999;line-height: 2em;font-weight: 300}
+#content .content_area .flask{width: 1000px;height: 200px;background: url(../images/sub4_3flask.png) left top no-repeat; position: absolute; left: 0; top: 680px; border-bottom: 3px solid #ccc; }
+#content .content_area .flask ul{width: 750px;margin-left: 200px}
+#content .content_area .flask ul li{font-family: 'Nanum Gothic',sans-serif; font-size: 1.5em; color: #333;line-height: 1.8em;font-weight: 500}
+
+#content .content_area .factory{width: 1000px;position: absolute; left: 0 ;top: 1000px;margin: 0 auto; overflow: hidden}
+#content .content_area .factory strong{color: #056207; display: block;font-family: 'Nanum Gothic',sans-serif;font-size: 2.1em;color: #056207;line-height: 3em;font-weight: 700; text-align: center;}
+
+#content .content_area .factory div{width: 1200px;height: 600px;}
+#content .content_area .factory div img{float: left; padding: 50px 0}
+
+#content .content_area .factory div:nth-child(4){height: 300px;}
+#content .content_area .factory div:nth-child(5){height: 300px;}
+#content .content_area .factory div dl{width: 700px; height: 600px;float: right;display: block;margin-right: 100px }
+#content .content_area .factory div dl p{color: #999}
+#content .content_area .factory div dl dt{font-family: 'Nanum Gothic',sans-serif; font-size: 2em; color: #0e9711;line-height: 1.8em;font-weight: 500}
+#content .content_area .factory div dl dd{font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; color: #333;line-height: 1.8em;font-weight: 500}
+
+
+
+
+
+
+
+
+

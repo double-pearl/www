@@ -1,0 +1,54 @@
+#content{clear: both; width: 100%; overflow: hidden;margin-top: 900px; background: rgba(0,0,0,.8)}
+#content h3{font-size: 3.5em; text-align: center; margin-bottom: 7%; color: #fff}
+
+@media screen and (max-width:1500px) {
+    .videoBox span{font-size: 8rem; transform: translateX(-40%) translateY(-20%);}
+}
+
+/* �쇰컲 pc */
+@media screen and (max-width:1280px) {
+    .videoBox span{font-size: 8rem;}
+	
+}
+
+
+/* �쇰컲 �뚮툝由� */
+@media screen and (max-width:1024px) {
+    .videoBox span{font-size: 6.5rem; transform: translateX(-40%) }
+    
+    #content .char_all li .item2{display: none}	
+	#content .char_all li{justify-content: center; width: 90%; margin-left: 5%; border-radius: 20px }
+    #content .char_all li .item1{width: 35%; align-items: center; margin-right: 10%}
+    #content .char_all li .item3{width: 35%; align-items: center;}
+}
+
+
+/* �뚰삎 �뚮툝由� */
+@media screen and (max-width:768px) {
+.videoBox span{font-size: 6rem; left: 50%; top: 45%; transform: translateX(-50%) translateY(-50%); opacity: 1; color: limegreen}
+.clip_part {width:auto; float:none;}
+    #content .char_all li .item1{width: 100%; margin: 5%}
+    #content .char_all li .item1 h4{text-align: center}
+    #content .char_all li .item3{display: none}
+}
+
+
+/* 紐⑤컮�� */
+@media screen and (max-width:640px) {
+.subTitle {font-size: 1.5em}
+.videoBox>span {font-size: 3rem; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);}
+    #content .char_all li:nth-of-type(6),#content .char_all li:nth-of-type(8){display: none}   
+    #content .char_all{margin-bottom: 10%}
+}
+
+
+@media screen and (max-width:480px) {
+    .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .clip_part .contentArea {
+        width: auto
+    }
+}

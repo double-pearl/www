@@ -1,0 +1,10 @@
+
+#map{width: 1200px; height: 600px; margin-bottom:100px; }
+/*지도넣을 36.907379, 127.171913 자리*/
+#content .content_area{margin: 0 auto; padding: 0;text-align: right}
+#content .content_area>span{font-family: 'Nanum Gothic',sans-serif; font-size: 1em; line-height: 2em; font-weight: 700; color: #333; margin-bottom: 50px}
+#content .content_area table{width: 100%; height: 300px; border-top: 2px solid #333; border-bottom:2px solid #333 ;text-align: left; margin-bottom: 180px}
+#content .content_area table tr:nth-child(1){border-bottom: 1px solid #ccc}
+#content .content_area table tr:nth-child(2){border-bottom: 1px solid #ccc}
+#content .content_area table th{text-align: center}
+#content .content_area table>td { border: 1px solid #ccc; padding: 20px 20px}

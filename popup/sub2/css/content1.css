@@ -1,0 +1,23 @@
+
+
+#content .content_area{width: 1200px;}
+#content .content_area>div{width: 1200px; height:auto; text-align: center; overflow: hidden; border-top: 1px solid #bbb; padding:50px 0 0 50px; margin-bottom: 300px}
+#content .content_area div ul{margin: 0 auto;}
+#content .content_area div ul li{display: block; width: 220px; height: 320px; border: 1px solid #ccc; margin: 0 10px 20px 0; float: left; position: relative; overflow: hidden;}
+
+#content .content_area div ul li img{margin-top: 15px}
+#content .content_area div ul li span{display: block; font-family: 'Nanum Gothic',sans-serif; font-weight: 700; font-size: 1.2em; line-height: 2em; margin-top: 30px}
+#content .content_area div ul li p{font-family: 'Nanum Gothic',serif; font-weight: 500; font-size: 1em; color: #50a83b}
+#content .content_area div ul li a{display: block}
+#content .content_area div ul li dl{position: absolute; top:0; left: 0; width: 220px; height: 320px; background:#50a83b; text-align: center; transform: translate(0,320px); opacity:0; margin: 0 auto; transition: all, 0.5s}
+#content .content_area div ul li dl dt{ color: #fff; font-family: 'Nanum Gothic',serif; font-weight: 700; font-size: 1.5em; line-height: 2em; margin: 70px 0 40px 0;}
+#content .content_area div ul li dl dd{font-family: 'Nanum Myeongjo',serif; font-size: 1.1em; text-align: justify;line-height: 1.5em; color: #fff; font-weight: 300; margin: 0 10px 0; }
+#content .content_area div ul li:nth-child(1):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(2):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(3):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(4):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(5):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(6):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(7):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(8):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}
+#content .content_area div ul li:nth-child(8):hover dl{transform: translate(0,0) ; opacity: 1; transition:all .5s}

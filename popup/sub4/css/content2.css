@@ -1,0 +1,13 @@
+#content{margin: 0 auto}
+#content .content_area{width: 1000px;height: 1600px; position: relative; margin: 0 auto; }
+#content .content_area .illu{width: 1000px; height: 500px;position: absolute; left: 0; top:-150px ;background: url(../images/sub4_2.jpg) left top no-repeat}
+#content .content_area .left{position: absolute;left: 0; top:350px; width: 1000px; overflow: hidden}
+#content .content_area .left ul{margin-left: 100px; width: 850px; text-align: justify}
+#content .content_area .left ul li{font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; line-height: 1.5em; font-weight: 500; margin-bottom: 50px; position: relative}
+#content .content_area .left ul li::before{content: '';width: 5px;height: 60px; background: #1e9501; display: block; position: absolute; left: -40px; top: 5px}
+#content .content_area span{font-family: 'Nanum Gothic',sans-serif; font-size: 2.1em; line-height: 1.8em; font-weight: 700;color: #333; display: block; z-index: 1000; position: absolute; left: 420px; bottom: 700px}
+#content .content_area .produce{width: 1000px; height: 580px; background: url(../images/produce_03.jpg) right top no-repeat;position: absolute; left: -30px; bottom: 0px}
+#content .content_area .produce ul{overflow: hidden;width: 1000px;}
+#content .content_area .produce ul:nth-child(1){width: 1000px;margin: 185px 10px 0 65px;}
+#content .content_area .produce ul:nth-child(2){margin: 275px 30px 0 65px;}
+#content .content_area .produce ul li{width: 240px; text-align: center; display: block; font-family: 'Nanum Gothic',sans-serif;font-weight: 700; font-size: 1.6em; line-height: 2em; color: #666; float: left}

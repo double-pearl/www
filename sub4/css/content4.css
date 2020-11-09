@@ -1,0 +1,23 @@
+#content{}
+#content .content_area{width: 1000px;margin: 0 auto}
+#content .content_area ul{}
+#content .content_area ul li{margin: 0 auto}
+
+#content .content_area ul li:nth-child(1){width: 1200px; height: 200px;}
+#content .content_area ul li:nth-child(2){width: 1200px; height: 400px;}
+#content .content_area ul li:nth-child(3){width: 1200px; height: 300px;}
+#content .content_area ul li:nth-child(4){width: 1200px; height: 200px;}
+#content .content_area ul li:nth-child(5){width: 1200px; height: 300px;}
+#content .content_area ul li:nth-child(6){width: 1200px; height: 200px;}
+
+#content .content_area ul li dl{width: 1000px; overflow: hidden;padding-top: 50px; border-top: 1px solid #ccc;}
+#content .content_area ul li dl dt{width: 300px; height: 250px; font-family: 'Nanum Gothic',sans-serif; font-size: 2em; line-height: 1.5em; font-weight: 700; text-align: justify; position: absolute
+}
+#content .content_area ul li:nth-child(1) dl dt{color: #0e9711;}
+#content .content_area ul li:nth-child(2) dl dt{color: #056207;}
+#content .content_area ul li:nth-child(3) dl dt{color: #0e9711;}
+#content .content_area ul li:nth-child(4) dl dt{color: #056207;}
+#content .content_area ul li:nth-child(5) dl dt{color: #0e9711;}
+#content .content_area ul li:nth-child(6) dl dt{color: #056207; border-bottom: 1px solid #ccc}
+
+#content .content_area ul li dl dd{width: 200px;float:left; text-align: justify; line-height: 2em; font-family: 'Nanum Gothic',sans-serif;color: #666; font-size: 1.1em; font-weight: 500; padding-left: 250px}

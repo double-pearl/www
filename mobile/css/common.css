@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+border-radius:1px}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block;position: absolute; left: -1000%; top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+    /* 전체공통 */
+   
+#wrap{ width:100%; position: relative;overflow:hidden; }
+
+/* 헤더공통 */
+
+#headerArea{width: 100%; height: 64px; position: relative;text-align: center}
+.box{width:100%; height:100%; background:#000; opacity:0.7;
+     position:absolute; left:0; top:0; z-index:15; display:none}
+
+#headerArea .logo{width: 106px; position: absolute; left: 50%; top: 15px; margin-left: -53px;}
+#headerArea h1 a{ display: block; }
+#headerArea h1 a img{width: 106px;height:40px;}
+#headerArea .open{display: block; position: absolute; right: 2%; top:10px; color:#097c25 ;font-size: 3em}
+
+#headerArea #gnb{width: 80%; background: #fff;position: absolute; right: -100%; top: 0; opacity: 0; z-index: 20; border-left: 1px solid #ccc}
+#gnb .gnb_header{width: 100%; height: 64px; overflow: hidden; border-bottom: 1px solid #097c25 }
+#gnb .gnb_header img{float: left; padding: 10px 30px 20px}
+#gnb .gnb_header a{display: block; float: right; font-size: 3em; color:#097c25; padding: 5px 10px 0}
+#gnb .gnb_body{overflow: auto}
+#gnb .gnb_body div{visibility: hidden; height: 80px}
+#gnb li{border-top: 1px solid #e2e2e2; text-align: left; }
+#gnb>ul>li:first-of-type{border:none}
+#gnb li h3 {overflow: hidden}
+#gnb li a{display: block; font-size: 1em; font-weight: 600; color: #333; padding: 14px}
+#gnb li h3 span{display: block; float: right}
+#gnb ul li ul{background:#f8f8f8; display: none}
+
+/* 푸터공통 */
+
+#footerArea{width: 100%; overflow: hidden}
+#footerArea .footer_inner{text-align: center;background: #666; color: #fff}
+#footerArea .footer_inner .footer_top{overflow: hidden; width: 100%; text-align: center;border-top: 1px solid #ccc}
+#footerArea .footer_inner .footer_top ul li{display: block;font-family: 'Nanum Gothic',sans-serif;font-size: 1em; line-height: 3em; float: left; width: 33.33% ;position: relative}
+#footerArea .footer_inner .footer_top ul li:nth-child(2)::before{content: '';width: 1px; height: 15px; background: #fff; position: absolute; left: 0; top: 14px}
+#footerArea .footer_inner .footer_top ul li:nth-child(3)::before{content: '';width: 1px; height: 15px; background: #fff; position: absolute; left: 0; top: 14px}
+#footerArea .footer_inner .footer_mid{width:100%; position: relative}
+#footerArea .footer_inner .footer_mid .sns{width: 120px;position: absolute; left: 50%; margin-left: -60px; }
+#footerArea .footer_inner .footer_mid .sns ul{display: block;width: 100%; overflow: hidden; }
+#footerArea .footer_inner .footer_mid .sns ul li{float: left;text-align: center;}
+#footerArea .footer_inner .footer_mid .sns ul li a{display: block; padding: 5px 5px}
+#footerArea .footer_inner .footer_mid .sns ul li a i{font-size: 2.2em}
+#footerArea .footer_inner .footer_mid .addr{width: 100%;padding: 40px 0 10px 10px; line-height: 2em}
+#footerArea .footer_inner .footer_mid .top{display: block; width: 40px; height: 40px;border-radius: 20px;background: #097c25; position: absolute; right: 2%; bottom: 4%; z-index: 5; text-align:center; font-size: 2em;color: #fff;line-height: 1.3em}
+
+#footerArea .footer_inner .footer_bottom{background:#333;width: 100%;padding: 10px 0; color: #fff;line-height: 2em }
+
+
+
+
+
+

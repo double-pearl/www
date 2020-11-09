@@ -1,0 +1,218 @@
+
+/*콘텐츠영역*/
+#content{ background:#fff; text-align: center; margin: 0 auto; overflow: hidden}
+#content h2,h3{ font-family: 'Roboto Slab', serif; font-size: 3em; }
+#content .about{width: 100%;height: 600px; overflow: hidden; position: relative}
+#content .about .bgbox{width: 200%; height: 180%; background: #9dd4fd;position: absolute; right: -27%; top:0; transform: rotate(25deg)}
+#content .about h3{padding-top: 100px;position: absolute; left: 50%; top: 10%}
+#content .about .span{height: 900px; display: block;width: 86%; margin: 5% 7%; text-align: left; font-size: 1.5em; line-height: 2em; font-family: 'Merriweather', serif;position: absolute; left: 0; top:150px}
+
+/*호버효과 어바웃*/
+#content .container{width: 100%; margin: 0 auto; display: flex; flex-direction: row; flex-wrap:wrap}
+#content .container .flexbox{position: relative; width: 22%; height: 100%; display: inline-block; margin-left: 3%}
+#content .container .flexbox:nth-of-type(2){margin-top: 100px}
+#content .container .flexbox:nth-of-type(4){margin-top: 100px}
+#content .container .flexbox img{width: 100%}
+#content .container .details{position: absolute; left: 4%; top: 4%; right: 4%; bottom: 4%; background: rgba(255,255,255,.7);transform: scaleY(0); transition: transform .5s; margin: 0 auto; overflow: hidden}
+#content .container .details .con{position: absolute; top: 50%;transform: translateY(-50%);padding: 5% 5%; color: #000; text-align: center; margin: 0 auto}
+#content .container .details .con span{display: block; width: 100%;line-height: 3em; font-family: 'Merriweather', serif; font-size: 1.5em;font-weight: bold}
+#content .container .details .con p{display: block; width: 100%;line-height: 1.5em; font-family: 'Merriweather', serif; font-size: 1.4em;}
+#content .container .flexbox:hover .details{transform: scaleY(1)}
+
+
+#content .plot{margin: 0 auto; overflow: hidden}
+#content .plot .plot_bg{height: 360px; background: url(../images/plot_bg.jpg) center no-repeat fixed;background-size: cover; overflow: hidden;transition: all 1s; position: relative}
+#content .plot .plot_bg h3{position: absolute; left: 50%; top: 50%; color: #fff; transform: translate(-50%,-50%);}
+#content .plot .box{width: 90%; margin: 5%;overflow: hidden}
+#content .plot .box .left{float: left; width: 34%;}
+#content .plot .box .left img{width: 100%}
+#content .plot .box .center{float: right; width:62%; height: 300px; font-size: 1.2em; text-align: left; font-family: 'Merriweather', serif; line-height: 1.5em;padding-left: 20px }
+#content .plot .box .center strong{font-size: 1.5em; line-height: 2em}
+#content .plot .box2 {width: 90%; overflow: hidden;margin: 0 auto}
+#content .plot .box2 .left{float: left; width: 60%}
+#content .plot .box2 .left img{width: 100%}
+#content .plot .box2 .right{float: right;width: 35%}
+#content .plot .box2 .right img{width: 100%}
+
+.trailer{margin: 0 auto;overflow: hidden; }
+.trailer_bg{height: 400px; background: url(../images/trailer_bg.jpg) center no-repeat fixed ;background-size: cover;position: relative}
+.trailer_bg h3{position: absolute; left: 50%; top: 50%; color: #fff; transform: translate(-50%,-50%);}
+.trailer ul{width:92%; margin:0 auto;text-align: left}
+.trailer ul li{float: left;width: 33.33%;margin-top: 30px;margin-bottom: 40px}
+.trailer ul li img{width:90%}
+.trailer ul li a span{ font-size: 1.5em; font-weight: 500;font-family: 'Roboto Slab', serif;line-height: 2.2em; position: relative}
+.trailer ul li a span::before{content: ''; width: 100%; height: 2px ; background: #000; position: absolute; left: 0 ;top: 35px}
+
+/*시리즈*/
+.series {overflow: hidden;clear: both; background: url(../images/series_bg1.jpg) center no-repeat; background-size: cover}
+.series .series_bg{height: 350px;background: url(../images/series_bg1.jpg) center no-repeat fixed;
+        background-size: cover; position: relative}
+.series .series_bg h3 {position: absolute; left: 50%; top: 50%; color: #fff; transform: translate(-50%,-50%);}
+.series .seriese_inner {background: rgba(0,0,0,.7);margin: 0 auto}
+.series .seriese_inner .book{width: 80%; margin:0 auto; overflow: hidden}
+.series .seriese_inner .book .container{display: flex;flex-flow: nowrap;justify-content: space-between}
+.series .seriese_inner .book ul li{float:left; width:auto}
+.series .seriese_inner .book ul li a{display: block;}
+.series .seriese_inner h4{color: #fff;font-size: 2em;line-height: 5em; font-family: 'Merriweather', serif; font-weight: 300; display: block;margin: 0 20px 0 20px }
+
+
+/*스와이퍼*/
+
+
+/*푸터*/
+
+#footerArea{width: 100%;height: 100px; margin: 0 auto; background: #000; overflow: hidden; clear: both}
+#footerArea .footer_inner{overflow: hidden;padding-top: 20px }
+#footerArea .footer_inner .footer_logo{float: left;padding-left: 20px;width: 20%;display: block}
+#footerArea .footer_inner .footer_logo img{width: 80%; }
+
+#footerArea .footer_inner p{display: block; float: none; color: #fff; font-size: 14px; text-align: center; line-height: 1.5em;padding-top: 10px}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    /*호버효과 어바웃*/
+
+#content .about .container .flexbox:nth-of-type(2){margin-top: 80px}
+#content .about .container .flexbox:nth-of-type(4){margin-top: 80px}
+
+#content .about .container .details .con{position: absolute; top: 50%;transform: translateY(-50%);padding: 5% 5%; color: #000; text-align: center; margin: 0 auto}
+#content .about .container .details .con span{display: block; width: 100%;line-height: 3em; font-family: 'Merriweather', serif; font-size: 1.5em;font-weight: bold}
+#content .about .container .details .con p{display: block; width: 100%;line-height: 1.4em; font-family: 'Merriweather', serif; font-size: 1.4em;}
+#content .about .container .flexbox:hover .details{transform: scaleY(1)}
+
+.trailer ul{width:92%; margin:0 auto;text-align: left}
+.trailer ul li{float: left;width: 33.33%;margin-top: 30px;margin-bottom: 30px}
+.trailer ul li img{width:90%}
+.trailer ul li a span{ font-size: 1.3em; font-weight: 500;font-family: 'Roboto Slab', serif;line-height: 2.1em; position: relative}
+.trailer ul li a span::before{content: ''; width: 100%; height: 2px ; background: #000; position: absolute; left: 0 ;top: 35px}
+
+.series .series_bg{background: url(../images/series_bg1.jpg) center no-repeat ;background-attachment:scroll;background-size: cover;height: 350px; position: relative
+}
+    #footerArea{overflow: hidden; width: 100%; height: 100px}   
+#footerArea .footer_inner{padding-top: 20px;width: 100%;margin: 0 auto}
+#footerArea .footer_inner .footer_logo{float: left;width: 20%;margin: 0 auto}
+
+
+#footerArea .footer_inner p{display: block; width:100%; color: #fff; font-size: 14px; text-align: center; line-height: 1.5em; float: none}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .about h3{padding-top: 50px; }
+    #content .about{margin-bottom:5%;}
+    #content .about .span{display: block;width: 90%; margin: 5% 5%; text-align: left; font-size: 1.3em; line-height: 2em; font-family: 'Merriweather', serif;}
+    #content .about .container{margin: 0 auto}
+#content .about .container .flexbox{position: relative; width: 23%; height: 100%; display: inline-block; margin: 1%}
+#content .about .container .flexbox:nth-of-type(2){margin-top: 1%}
+#content .about .container .flexbox:nth-of-type(4){margin-top: 1%}
+/*호버효과 어바웃*/
+#content .about .container .details .con span{display: block; width: 100%;line-height: 2.5em; font-family: 'Merriweather', serif; font-size: 1.4em;font-weight: bold}
+#content .about .container .details .con p{display: block; width: 100%;line-height: 1.4em; font-family: 'Merriweather', serif; font-size: 1.2em;}
+
+    
+	#content .plot .plot_bg{height: 250px; background: url(../images/plot_bg.jpg) center no-repeat scroll;background-size: cover; overflow: hidden;transition: all 1s; position: relative}
+    #content .plot .box .center{float: right; width:100%; font-size: 1.2em;height: auto; text-align: left; font-family: 'Merriweather', serif; line-height: 1.5em;}
+    #content .plot .box{width: 90%; margin: 5%;overflow: hidden}
+    #content .plot .box .left{display: none}
+    #content .plot .box .center{width: 100%}
+    #content .plot .box .center strong{line-height: 3em}  
+    #content .plot .box2 {width: 90%; overflow: hidden;margin: 0 auto}
+    
+
+    .trailer_bg{height: 250px; background: url(../images/trailer_bg.jpg) center no-repeat scroll ;background-size: cover;position: relative}
+    
+    .trailer ul li{float: left;width: 33.33%;margin-top: 30px;margin-bottom: 30px}
+    .trailer ul li a span{ font-size: 1.2em; font-weight: 400;font-family: 'Roboto Slab', serif;line-height: 1.5em; position: relative; color: #333}
+    .trailer ul li img{width:97%}
+
+    .trailer ul li a span::before{content: ''; width: 100%; height: 2px ; background: #ccc; position: absolute; left: 0 ;top: 25px}
+    .series .series_bg{background: url(../images/series_bg1.jpg) center no-repeat ;background-attachment:scroll
+        ;background-size: cover;height: 250px; position: relative
+}
+    .series .seriese_inner .book{width: 100%; margin:0 auto; overflow: hidden}
+    .series .seriese_inner h4{color: #fff;font-size: 1.8em;line-height: 4em; font-family: 'Merriweather', serif; font-weight: 300; display: block;margin: 0 20px 0 20px }
+    
+#footerArea{width: 100%;height:auto}
+#footerArea .footer_inner{padding-top: 10px }
+#footerArea .footer_inner .footer_logo img{width: 70%; }
+#footerArea .footer_inner p{display: inline-block; color: #fff; font-size: 14px; text-align: center; line-height: 1em;}
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content .about .span{display: block;width: 90%; margin: 5% 5%; text-align: left; font-size: 1.2em; line-height: 2em; font-family: 'Merriweather', serif;}
+    #content .about .container{width: 90%;margin: 0 auto}
+    #content .about .container .flexbox{position: relative; width: 25%; height: 100%; display: inline-block; margin: 0}
+    #content .about .container .flexbox:nth-of-type(2){margin-top: 0}
+#content .about .container .flexbox:nth-of-type(4){margin-top: 0}
+/*호버효과 어바웃*/
+#content .about .container .details .con span{display: block; width: 100%;line-height: 2em; font-family: 'Merriweather', serif; font-size: 1em;font-weight: bold; text-align: center}
+#content .about .container .details .con p{display:none}
+    
+    #content .plot .plot_bg{height: 200px; background: url(../images/plot_bg.jpg) center no-repeat scroll;background-size: cover; overflow: hidden;transition: all 1s; position: relative}
+    #content .plot .box2{width: 100%;margin-bottom: 10px}
+    #content .plot .box2 .left{float: none; width: 100%}
+    #content .plot .box2 .left img{width: 100%}
+    #content .plot .box2 .right{display: none}
+
+        
+
+    
+    .trailer_bg{height: 200px; background: url(../images/trailer_bg.jpg) center no-repeat fixed ;background-size: cover;position: relative}
+    
+    .trailer ul{width:100%; margin:0 auto;text-align: left}
+    .trailer ul li{float: left;width: 50%;margin-top: 3%;margin-bottom: 20px}
+    .trailer ul li:nth-of-type(1){display: none}
+    .trailer ul li:nth-of-type(3){display: none}
+    
+    .series .series_bg{background: url(../images/series_bg1.jpg) center no-repeat ;background-attachment:scroll
+        ;background-size: cover;height: 200px; position: relative
+}
+    .series .seriese_inner .book{width: 100%; margin:0 auto; overflow: hidden}
+    .series .seriese_inner h4{color: #fff;font-size: 1.7em;line-height: 4em; font-family: 'Merriweather', serif; font-weight: 300; display: block;margin: 0 20px 0 20px }
+}
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .about .span{text-align: left; font-size: 1.2em; line-height: 1.5em; font-family: 'Merriweather', serif;}
+    #content .about .span .mobile{display: none}
+    #content .about .container{display: none}
+    
+    #content .plot .plot_bg{height: 150px;}
+    #content .plot .box2{display: none}
+    #content .plot .box .center strong{font-size: 1.1em; letter-spacing: -1; line-height: 2em}
+    
+ #content .trailer_bg{height: 150px; background-attachment: fixed;} 
+ #content .trailer ul li{float: none;width: 100%;margin-bottom: 5%}
+    
+  #content .trailer ul li:nth-of-type(2){display: none}
+  #content .trailer ul li:nth-of-type(4){margin-top: 30px}
+  #content .trailer ul li:nth-of-type(5){display: none}
+#content .trailer ul li span{display: block; }
+.series{margin: 30px 0 30px 0}   
+.series .series_bg{background-attachment: scroll;height: 150px; position: relative}
+
+.series .seriese_inner{background: rgba(0,0,0,.8);margin: 0 auto}
+.series .seriese_inner .book{width: 100%; margin:0 auto; overflow: hidden}
+    .series .seriese_inner .book .container{margin: 0 auto}
+    .series .seriese_inner .book .container div{width: 50%; margin: 0 auto}
+    .series .seriese_inner .book .container div:nth-of-type(3){display: none}
+
+.series .seriese_inner .book ul li a{display: block;}
+.series .seriese_inner h4{color: #fff;font-size: 1.8em;line-height: 4em; font-family: 'Merriweather', serif; font-weight: 300; display: block;margin: 0 30px 0 20px }
+    
+#footerArea .footer_inner{padding-top: 0; margin: 0 auto}
+#footerArea .footer_inner .footer_logo{float:none;width: 33.33%; margin: 0 auto;padding-bottom: 2%; display: block;}
+    #footerArea .footer_inner .footer_logo img{display: block; width: 150px;margin: 0 auto}
+#footerArea .footer_inner p{display:none}
+    
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+

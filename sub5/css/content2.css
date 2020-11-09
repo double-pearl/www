@@ -1,0 +1,17 @@
+#content{}
+#content .content_area{margin: 0 auto}
+#content .content_area .bg{width: 1100px; height: 300px;background: url(../images/sub5_2_v.jpg) center bottom no-repeat;position: relative; left: 50px; top:-100px}
+
+#content .content_area .recipe{width: 1200px;margin: 0 auto}
+#content .content_area .recipe ul{width: 1150px;height: 330px;margin: 0 0 20px 50px; }
+#content .content_area .recipe ul:nth-child(2){margin-bottom: 150px}
+#content .content_area .recipe ul li{width: 270px;height: 330px;float: left;position: relative; border: 1px solid #ccc; margin-right: 10px }
+#content .content_area .recipe ul li:nth-last-child(4){margin-right: none}
+#content .content_area .recipe ul li a{width: 270px;height: 330px;display: block;text-align: center;}
+#content .content_area .recipe ul li a img{margin-top: 10px}
+#content .content_area .recipe ul li strong{display: block; width: 270px;height: 50px;display: block;text-align: center;font-family: 'Nanum Gothic',sans-serif; font-weight: 600; font-size: 1.2em; line-height: 3em }
+#content .content_area .recipe ul li a span{display: block;width: 270px;height: 270px; position: absolute;left: 0;top: 0; background: rgba(0,0,0,0.7);color: #fff; text-align: center;font-family: 'Nanum Myoengjo',serif; font-weight: 600; font-size: 1.5em; line-height: 12em; opacity: 0;transition: all .5s;z-index: 1}
+#content .content_area .recipe ul li a:hover span{opacity: 1;}
+
+
+

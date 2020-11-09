@@ -1,0 +1,15 @@
+#content{margin: 0 auto}
+#content .content_area{width: 1000px;margin: 0 auto}
+#content .content_area .bg{width: 1000px;height: 370px;background: url(../images/sub5_01.jpg) center top no-repeat}
+#content .content_area .bg1{width: 900px; height: 300px; margin-left: 50px; margin-bottom: 100px}
+#content .content_area .bg1 h4{font-family: 'Nanum Gothic',sans-serif; font-size: 2em; font-weight: 700; line-height: 3em;  text-align: justify; color: #0e9711; position: relative}
+#content .content_area .bg1 h4::before{content: '';width: 5px;height: 50px;background: #1e9501; display: block; position: absolute; left: -50px; top: 20px}
+#content .content_area .bg1 p{font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; font-weight: 700; line-height: 2.5em; text-align: justify; color: #666}
+
+#content .content_area .bg2{width: 1000px;height: 300px;background: #f7f7f7; position: relative;margin-bottom: 100px} 
+#content .content_area .bg2 img{ position: absolute; right :-30px; top: -20px; }
+#content .content_area .bg2 span{z-index: 10; font-family: 'Nanum Gothic',sans-serif; font-size: 1.1em; font-weight: 200; line-height: 2em;text-align: justify; color: #666; position: absolute; left: 30px; bottom: 20px}
+#content .content_area .bg3{width: 900px;height: 600px; margin-left: 50px}
+#content .content_area .bg3 h4{font-family: 'Nanum Gothic',sans-serif; font-size: 2em; font-weight: 700; line-height: 3em;  text-align: justify; color: #0e9711; position: relative}
+#content .content_area .bg3 h4::before{content: '';width: 5px;height: 80px;background: #1e9501; display: block; position: absolute; left: -50px; top: 20px}
+#content .content_area .bg3 span{font-family: 'Nanum Gothic',sans-serif; font-size: 1.2em; font-weight: 700; line-height: 2.5em; text-align: justify; color: #666}

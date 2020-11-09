@@ -1,0 +1,19 @@
+#content{}
+#content .content_area{ width: 1200px;margin: 0 auto}
+#content .content_area .faq{width: 1000px;margin: 0 auto}
+
+#content .content_area .faq .hgroup{width: 1000px;height:100px;position: relative;}
+
+#content .content_area .faq .hgroup h2{font-family: 'Nanum Gothic',sans-serif; font-weight: 700; font-size: 2.2em; line-height: 2em; position: absolute; left: 40%}
+#content .content_area .faq .hgroup .all{width: 100px;height: 50px; position: absolute;right: 0; top: 30px; color: #056207}
+#content .content_area .faq .hgroup .trigger{display: block; border: 1px solid #333}
+
+#content .content_area .faq .article{border-bottom: 1px solid #fff; position: relative; width: 1000px;}
+
+#content .content_area .faq .article .q{font-family: 'Nanum Gothic',sans-serif; font-weight: 700; font-size: 1.8em; line-height: 2em;background: #056207}
+#content .content_area .faq .article .q:hover,
+#content .content_area .faq .article .q:active,
+#content .content_area .faq .article .q:focus{background:#0e9711; color: #fff }
+#content .content_area .faq .q .trigger{display: block;width: 1000px; padding: 15px 0 15px 20px; color: #fff; margin-left: 5px}
+#content .content_area .faq .q span{display: block;width: 50px;height: 50px;position: absolute; right: 20px; top: 15px;border-radius: 25px; color: #fff}
+#content .content_area .faq .a{font-size: 1.3em;text-align: justify; padding: 20px; line-height: 2em; display: none}

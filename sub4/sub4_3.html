@@ -1,0 +1,80 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>연구개발-품질관리시스템</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+ <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=3;
+      include "common/sub4_nav.html"; 
+?>
+<!-- 본문 콘텐츠영역 -->
+
+
+ 
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>연구개발</span>&gt;<strong>품질관리시스템</strong>
+                
+            </div>
+            <h2>품질관리시스템</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+        <div class="bg"><img src="images/sub4_3.jpg" alt=""></div>
+        <div class="quality"><div class="left">
+            <dl>
+               <span>1. 제조부문</span><br>
+ <dt>콩의 영양과 맛은 그대로 살리고 철저한 위생 및 시설관리로 품질 제일주의를 실천</dt>
+               
+            </dl>
+            </div><div class="right">
+                <dl>
+                    <span>2.품질관리 부문</span><br>
+                        <dt>부적합 원인 분석 및 사전예방
+                        국내 최고 수준으로 성장</dt>
+                   
+                </dl>
+            </div>
+            </div>   
+            <div class="flask">
+                <ul>
+                    <li>맛과 영양을 겸비한 최상의 제품</li>
+<li>웰빙 트랜드와 소비자의 건강요구에 부응한 자연건강제품</li>
+<li>정확한 조사, 연구, 개발 실험 및 POLOT 현장 적용을 통한 소비자 제품 상품화</li>
+<li>대학 및 관련 연구단체와 지속적인 정보교류 및 자료 수집 등으로 신기술 개발 및 적용</li>
+                </ul>
+            </div>  
+            <div class="factory">
+                <strong>최첨단 설비를 갖춘 인간존중의 건강한 기업이념으로 제품을 만듭니다.</strong>
+                  <div id="ppp"></div>
+                  
+                 
+              
+            </div>      
+        </div>
+        
+    </article>
+ <? include "../common/sub_foot.html" ?>
+ <script src="js/data-json.js"></script>
+</body>
+</html>

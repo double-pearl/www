@@ -1,0 +1,111 @@
+<div id="skipNav">
+ <a href="#content">본문 바로가기</a>
+ <a href="#gnb">글로벌 네비게이션 바로가기</a>
+ 
+</div>
+
+
+
+<div id="wrap">
+    <header id="headerArea">
+       <div class="header_inner">
+        <div class="top">
+            <h1 class="logo"><a href="index.html">삼육식품로고</a></h1>
+            <div class="top_menu">
+               <ul>
+                   
+                   <li><a href="index.html">home</a></li>
+                   
+ <? 
+                 if(!$userid)//세션변수가 생성되어 있지 않으면
+                 {
+          ?>                  
+                   
+                   
+                    <li><a href="login/login_form.php">로그인</a></li>
+                    <li><a href="member/join.html">회원가입</a></li>
+                    
+             <?
+               }
+                   else
+                   {    
+                   ?>   
+                    <li><?=$usernick?></li>
+                      <li><a href="login/logout.php">로그아웃</a></li>
+                    <li><a href="login/member_form_modify.php">회원정보수정</a></li>
+                    <?
+                        }
+                    ?>
+                </ul>
+                
+                
+                
+            </div>
+            
+        </div>
+        <nav id="gnb">
+           <h2 class="hidden">글로벌네비게이션영역</h2>
+            
+            <ul class="dropdownmenu">
+              	<li class="m1 menu">
+                	<h3><a class="depth1" href="sub1/sub1_1.html">기업정보</a></h3>
+                    <ul>
+                        <li><a href="sub1/sub1_1.html">CEO인사말</a></li>
+                        <li><a href="sub1/sub1_2.html">삼육히스토리</a></li>
+                        <li><a href="sub1/sub1_3.html">삼육의철학</a></li>
+                        <li><a href="sub1/sub1_4.html">사회공헌</a></li>
+                        <li><a href="sub1/sub1_5.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="m2 menu">
+                	<h3><a class="depth1" href="sub2/sub2_1.html">제품소개</a></h3>
+                	<ul>
+                    	<li><a href="sub2/sub2_1.html">일반두유</a></li>
+                        <li><a href="sub2/sub2_2.html">아몬드두유</a></li>
+                        <li><a href="sub2/sub2_3.html">특수용도식</a></li>
+                        <li><a href="sub2/sub2_4.html">기능성두유</a></li>
+                        <li><a href="sub2/sub2_5.html">블랙두유</a></li>
+                    </ul>
+                </li>
+                <li class="m3 menu">
+                	<h3><a class="depth1" href="sub3/sub3_1.html">기업광고</a></h3>
+                	<ul>
+                    	<li><a href="sub3/sub3_1.html">홍보영상</a></li>
+                        <li><a href="sub3/sub3_2.html">TV광고</a></li>
+                        <li><a href="sub3/sub3_3.html">지면광고</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="m4 menu">
+                	<h3><a class="depth1" href="sub4/sub4_1.html">연구개발</a></h3>
+                	<ul>
+                    	<li><a href="sub4/sub4_1.html">연구분야</a></li>
+                        <li><a href="sub4/sub4_2.html">생산설비현황</a></li>
+                        <li><a href="sub4/sub4_3.html">품질관리시스템</a></li>
+                        <li><a href="sub4/sub4_4.html">개발제품현황</a></li>
+                        <li><a href="sub4/sub4_5.html">유통조직현황</a></li>
+                    </ul>
+                </li>
+                <li class="m5 menu">
+                	<h3><a class="depth1" href="sub5/sub5_1.html">식품정보</a></h3>
+                	<ul>
+                    	<li><a href="sub5/sub5_1.html">푸드이야기</a></li>
+                        <li><a href="sub5/sub5_2.html">레시피제공</a></li>
+                        <li><a href="sub5/sub5_3.html">건강이야기</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="m6 menu">
+                	<h3><a class="depth1" href="sub6/sub6_1.html">고객센터</a></h3>
+                	<ul>
+                    	<li><a href="sub6/sub6_1.html">FAQ</a></li>
+                        <li><a href="concert/list.php">NEWS</a></li>
+                        <li><a href="greet/list.php">공지사항</a></li>
+                    </ul>
+               	</li>
+              </ul>
+            
+        </nav>
+        </div>
+    </header>
+    

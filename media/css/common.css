@@ -1,0 +1,151 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', Dotum; font-size:14px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+
+.hidden, #skipNav{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+img{display: block}
+
+/* 헤더공통영역 */
+/* 와이드 pc  */
+#wrap{ width: 100%; overflow: hidden}
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#videoBG {
+   position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG{
+	position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -80px; bottom: 10%;
+	animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+.down i{font-size: 1.7em; margin-left: 50px;line-height: 1.4em}
+
+#headerArea{position:fixed; z-index: 30; height: 100px;
+	 background: rgba(0,0,0,.8); left:0; top: 0;
+	 width: 100%}	
+#headerArea	.headerInner{width: 90%; margin: 0 5%;height: 100px;
+	  overflow: hidden}
+#headerArea h1{ float: left; margin-top: 15px}
+#headerArea h1 a{display: block;width:100px; height: 100px ;color: #fff; text-decoration: none; background: url(../images/logo.png) center no-repeat; position: relative; left: 0; top:-10px}	
+#headerArea #gnb{float: right;margin-top: 35px}
+#headerArea #gnb ul{overflow: hidden}
+#headerArea #gnb ul li{float: left; margin-right: 25px;}
+#headerArea #gnb ul li a{color: #fff; text-decoration: none;font-family: 'Roboto Slab', serif;font-weight: 400; font-size: 1.5em}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+#headerArea #gnb{ width: 100%;margin-top: 0; background: #333; position: absolute;left: 0 ;top: 0; z-index: 99}
+#headerArea #gnb ul{content: '';clear: both;display: block;height: 380px; z-index: 99; display: none}
+#headerArea #gnb ul li{float: none; margin:75px 10px 50px 40px;text-align: center;}
+#headerArea #gnb ul li a{color: #fff; text-decoration: none;font-size: 1.5em; font-weight: 500}
+}
+
+@media screen and (max-width:768px) {
+
+  .ham_btn{display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: none;
+    z-index: 120;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    transition: .5s;
+}
+.ham_btn span{width: 30px; 
+    height: 5px;
+    background: #fff;
+    display: block;
+    position: relative;
+    margin:24px 15px;
+    border-radius: 30px;
+}
+.ham_btn span::before{display: block;
+    content: '';
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: -12px;
+    border-radius: 30px;
+    transition: .3s;
+}
+.ham_btn span::after{display: block;
+    content: '';
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    background: #fff;
+    top: 12px;
+    right: 0;
+    border-radius: 30px;
+    transition: .3s;
+}
+#wrap .ham_btn.open{
+    background: none;
+}
+#wrap .ham_btn.open span{
+    background: transparent;
+}
+#wrap .ham_btn.open span::before{
+    transform: rotate(-45deg);
+    top: 0;
+    background: #fff;
+}
+#wrap .ham_btn.open span::after{
+    transform: rotate(45deg);
+    top: 0;
+    background: #fff;
+}
+}
+
+/* 푸터공통영역 */

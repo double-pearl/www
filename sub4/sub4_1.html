@@ -1,0 +1,87 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>연구개발-연구분야</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+ <? include "../common/sub_head.html" ?>
+   <? $_GET['num']=1;
+      include "common/sub4_nav.html"; 
+?>
+<!-- 본문 콘텐츠영역 -->
+
+
+ 
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>연구개발</span>&gt;<strong>연구분야</strong>
+                
+            </div>
+            <h2>연구분야</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+            <div class="research">
+                <div class="left"></div>
+                <div class="right"><div>식품연구실은 식물성 원료를 사용하여, 현대인의 행복과 건강을 추구하는 <br>최적의 제품개발을 추구, 끊임없는 개선, 혁신과 창조 및 효율적인 개발을 통해
+검은 참깨두유 등 다양한 제품을 개발해왔습니다.</div>
+
+<div>자신의 분야에 최선을 다하는 연구원들과 첨단 연구장비를 바탕으로 영양적으로
+균형 잡힌 건강한 제품, 식자재원료 자체가 가진 특성 및 효능을 최대한 살린 
+맛있는 자연식품 개발을 통해 21세기를 살아가는 현대인들에게 꼭 필요하고, 가장 
+가깝게 다가가는 제품을 개발하기 위한 연구에 매진하고 있습니다.</div></div></div>
+
+        <ul>
+            <li><dl>
+                <dt>1. 두유제품의<br> 연구개발</dt>
+                <dd>검은콩, 검은참깨두유 등과 같은 소비자의 웰빙 욕구를 충족시키며 건강 증진에
+도움이 되는 다양한 두유 음료 개발</dd>
+            </dl></li>
+            <li><dl>
+                <dt>2. 기능성 식품,<br> 음료개발</dt>
+                <dd>과즙음료, 다류음료, 기능성 음료 등 최고급 품질의 다양한 음료 제품군 개발</dd>
+            </dl></li>
+            <li><dl>
+                <dt>3. 영,유아식 및<br> 특수영양식 개발</dt>
+                <dd>노인과 병약자를 위한 실버식 및 환자식 개발
+이유식, 성장기용 유아식 등 유아 영양에 관한 제품 개발</dd>
+            </dl></li>
+            <li><dl>
+                <dt>4. 식물성 원료의<br>식품, 면류개발</dt>
+                <dd>다양하고 건강한 순식물성 단백질 식품의 연구, 개발
+현대인에게 육식대용으로 필요한 식물성 고기 및 웰빙식품 개발</dd>
+            </dl></li>
+            <li><dl>
+                <dt>5. 영양성분 분석<br> 식품안전 지원</dt>
+                <dd>식품의 기능성 및 유해성 성분 분석
+제품의 영양적 품질 적정검사</dd>
+            </dl></li>
+        </ul>
+         
+          
+           
+        </div>
+        
+    </article>
+ <? include "../common/sub_foot.html" ?>
+</body>
+</html>

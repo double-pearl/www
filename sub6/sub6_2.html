@@ -1,0 +1,50 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); ?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>제품소개-신제품</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub6common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b05901adb6.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<? include "../common/sub_head.html" ?>
+ <? $_GET['num']=2;
+      include "common/sub6_nav.html"; 
+?>
+
+<!-- 본문 콘텐츠영역 -->
+
+
+   <article id="content">
+    <div class="title_area">
+            <div class="lineMap">
+                <span>home</span>&gt;<span>고객센터</span>&gt;<strong>NEWS</strong>
+            </div>
+            <h2>NEWS</h2>
+            <p></p>
+        </div>
+        <div class="content_area">
+           
+            
+            
+        </div>
+        
+    </article>
+ <? include "../common/sub_foot.html" ?>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+     <script>
+          window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+        var nav3= document.getElementById('nav3');
+
+        var nav4= document.getElementById('nav4');
+        var nav5= document.getElementById('nav5');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }else if(num==4){
+
+              nav4.className='current';
+
+          }else if(num==5){
+
+              nav5.className='current';
+
+          }
+
+
+}
+         
+</script>
+
+<!-- 메인 비주얼영역 -->
+    <div class="visual">
+
+    </div>
+<!-- 서브네비영역 -->
+    <div class="subnav_box">
+        <h3>연구개발</h3>
+        <p>최선을 다하는 연구원들과 첨단 연구장비를 바탕으로 현대인의 행복과 건강을 추구합니다.</p>
+        
+        <div class="subNav">
+            <ul>
+                <li><a id="nav1" href="sub4_1.html">연구분야</a></li>
+                <li><a id="nav2" href="sub4_2.html">생산설비현황</a></li>
+                <li><a id="nav3" href="sub4_3.html">품질관리시스템</a></li>
+                <li><a id="nav4" href="sub4_4.html">개발제품현황</a></li>
+                <li><a id="nav5" href="sub4_5.html">유통조직현황</a></li>
+            </ul>
+            
+        </div>
+    </div>
